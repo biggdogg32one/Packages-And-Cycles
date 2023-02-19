@@ -30,8 +30,8 @@ class SQRServiceTest {
     public void calcTest3() {
         SQRServices service = new SQRServices();
 
-        int actual = service.calc(15, 99);
-        int expected = 0;
+        int actual = service.calc(200, 300);
+        int expected = 3;
 
         Assertions.assertEquals(expected, actual);
 
